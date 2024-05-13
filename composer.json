@@ -1,16 +1,16 @@
 {
-    "name": "voyager-inc/simple-histories",
+    "name": "voyager-inc/simple-log",
     "description": "Package Log Activity",
     "type": "false",
     "keywords": [
-        "histories",
+        "log",
         "log-activity"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Nguyen Ngoc Son",
-            "email": "sonnn@voyager-hcm.com"
+            "name": "Dang Quoc Toan",
+            "email": "toandq@voyager-hcm.com"
         }
     ],
     "require": {
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VoyagerInc\\SimpleHistories\\": "src/"
+            "VoyagerInc\\SimpleLog\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "VoyagerInc\\SimpleHistories\\ServiceProvider"
+                "VoyagerInc\\SimpleLog\\ServiceProvider"
             ]
         }
     },

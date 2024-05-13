@@ -1,6 +1,6 @@
 <?php
 
-namespace VoyagerInc\SimpleHistories;
+namespace VoyagerInc\SimpleLog;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
@@ -13,7 +13,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function boot()
     {
-        $this->app->bind(\VoyagerInc\SimpleHistories\Interface\LogHistoryInterface::class, \VoyagerInc\SimpleHistories\LogHistory::class);
+        $this->app->bind(\VoyagerInc\SimpleLog\Interface\LogHistoryInterface::class, \VoyagerInc\SimpleLog\LogHistory::class);
 
         if (!$this->app->runningInConsole()) {
             return;
