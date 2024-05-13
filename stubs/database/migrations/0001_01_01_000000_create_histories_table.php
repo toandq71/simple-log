@@ -13,7 +13,9 @@ return new class extends Migration
     {
         Schema::create('histories', function (Blueprint $table) {
             $table->id();
+            $table->string('log_name');
             $table->string('action');
+            $table->string('properties');
             $table->unsignedInteger('created_by');
             $table->timestamps();
         });
