@@ -1,4 +1,4 @@
-# Simple Histories
+# Simple Logs
 
 [`PHP v8.2`](https://php.net)
 
