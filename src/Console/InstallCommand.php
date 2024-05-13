@@ -1,6 +1,6 @@
 <?php
 
-namespace toandq71\SimpleHistories\Console;
+namespace toandq71\SimpleLog\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -9,7 +9,7 @@ class InstallCommand extends Command
 {
     protected $signature = 'histories:install';
 
-    protected $description = 'Install the Simple Histories package';
+    protected $description = 'Install the Simple Logs package';
 
     public function handle()
     {
@@ -18,7 +18,7 @@ class InstallCommand extends Command
 
     protected function install()
     {
-        $this->info('Installing Simple Histories package...');
+        $this->info('Installing Simple Logs package...');
 
         // Models
         (new Filesystem)->ensureDirectoryExists(app_path('Models'));
