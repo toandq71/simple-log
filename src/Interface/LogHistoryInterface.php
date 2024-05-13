@@ -1,6 +1,6 @@
 <?php
 
-namespace VoyagerInc\SimpleHistories\Interface;
+namespace toandq71\SimpleHistories\Interface;
 
 interface LogHistoryInterface
 {

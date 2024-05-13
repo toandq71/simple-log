@@ -1,5 +1,5 @@
 {
-    "name": "voyager-inc/simple-log",
+    "name": "toandq71/simple-log",
     "description": "Package Log Activity",
     "type": "false",
     "keywords": [
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VoyagerInc\\SimpleLog\\": "src/"
+            "toandq71\\SimpleLog\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "VoyagerInc\\SimpleLog\\ServiceProvider"
+                "toandq71\\SimpleLog\\ServiceProvider"
             ]
         }
     },

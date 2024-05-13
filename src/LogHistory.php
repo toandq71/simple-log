@@ -1,9 +1,9 @@
 <?php
 
-namespace VoyagerInc\SimpleHistories;
+namespace toandq71\SimpleHistories;
 
 use App\Models\Histories;
-use VoyagerInc\SimpleHistories\Interface\LogHistoryInterface;
+use toandq71\SimpleHistories\Interface\LogHistoryInterface;
 
 class LogHistory implements LogHistoryInterface
 {

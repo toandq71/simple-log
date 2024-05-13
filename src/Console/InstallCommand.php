@@ -1,6 +1,6 @@
 <?php
 
-namespace VoyagerInc\SimpleHistories\Console;
+namespace toandq71\SimpleHistories\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
