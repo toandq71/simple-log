@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-composer require voyager-inc/simple-histories
+composer require voyager-inc/simple-log
 ```
 
 Run the command:
@@ -23,7 +23,7 @@ php artisan migrate
 ## Usage
 
 ```php
-use VoyagerInc\SimpleHistories\Interface\LogHistoryInterface;
+use VoyagerInc\SimpleLog\Interface\LogHistoryInterface;
 
 // Coding in file controller
 public function testLog(Request $request)
