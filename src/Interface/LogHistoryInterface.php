@@ -1,6 +1,6 @@
 <?php
 
-namespace toandq71\SimpleHistories\Interface;
+namespace toandq71\SimpleLog\Interface;
 
 interface LogHistoryInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace toandq71\SimpleHistories;
+namespace toandq71\SimpleLog;
 
 use App\Models\Histories;
-use toandq71\SimpleHistories\Interface\LogHistoryInterface;
+use toandq71\SimpleLog\Interface\LogHistoryInterface;
 
 class LogHistory implements LogHistoryInterface
 {
